@@ -108,6 +108,7 @@ a:hover {
 	display:block;
 	left:0;
 	top: 40px;
+	height: 25px;
 	cursor: pointer;
   border: solid 2px #ffffff;
  
