@@ -912,7 +912,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 }
 
 
-.editts{
+.edittss{
     position: relative;
     list-style: none;
     margin: 0 auto;
@@ -937,6 +937,9 @@ body.nav-active .nav__list-item:nth-child(10) {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+}
+.badgess{
+    margin-top: 10%;
 }
 
 .who{
