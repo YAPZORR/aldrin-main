@@ -106,11 +106,12 @@ a:hover {
 .logo-wrap {
 	position: absolute;
 	display:block;
+  height: 25px;
 	left:0;
 	top: 40px;
-	
 	cursor: pointer;
- 
+  border: solid 2px #ffffff;
+
  
 }
 .logo-wrap a {
@@ -123,12 +124,11 @@ a:hover {
 	letter-spacing: 2px;
 	color: #fff;
 	transition : all 0.3s ease-out;
-
+  border: solid 2px #fff;
  
-  background: -webkit-linear-gradient(#f19872, #e86c9a);
+  background: -webkit-linear-gradient(#fff677, #ff8431);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 .logo-wrap a span{ 
 	color: #000000;
@@ -157,7 +157,7 @@ a:hover {
 	height: 2px;
 	width: 30px;
 	display: block;
-	background-color: #fff;
+	background-color: #000000;
 	margin-bottom: 7px;
 	cursor: pointer;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
@@ -748,7 +748,7 @@ h1 {
   select:focus {
     outline: none; }
   h1{
-    background: -webkit-linear-gradient(#fd00fd, #270031);
+    background: -webkit-linear-gradient(#b66d00, #ff8431);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
